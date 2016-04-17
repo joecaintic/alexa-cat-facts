@@ -130,7 +130,7 @@ function handleNewFactRequest(response) {
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
     // Create an instance of the CatFacts skill.
-    var CatFacts = new CatFacts();
-    CatFacts.execute(event, context);
+    var catFacts = new CatFacts();
+    catFacts.execute(event, context);
 };
 
